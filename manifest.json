@@ -3,7 +3,7 @@
     "name": "InstantIMSLP",
     "version": "1.0",
 
-    "description": "A Chrome extension to bypass the 15-second wait on IMSLP.",
+    "description": "A Chrome extension to bypass the accept-disclaimer screen and 15-second wait on IMSLP.",
     "icons": {
         "16": "images/logo16.png",
         "32": "images/logo32.png",
