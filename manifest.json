@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "InstantIMSLP",
+    "version": "1.0",
+
+    "description": "A Chrome extension to bypass the 15-second wait on IMSLP.",
+    "icons": {
+        "16": "images/logo16.png",
+        "32": "images/logo32.png",
+        "48": "images/logo48.png",
+        "128": "images/logo128.png"
+    },
+
+    "content_scripts": [{
+        "matches": [
+            "*://*.imslp.org/wiki/Special:ImagefromIndex/*",
+            "*://*.imslp.org/wiki/Special:IMSLPImageHandler/*"
+        ],
+        "js": ["contentScript.js"]
+    }],
+
+    "permissions": [
+        "activeTab"
+    ]
+}
